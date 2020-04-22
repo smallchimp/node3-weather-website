@@ -26,3 +26,8 @@ weatherForm.addEventListener('submit', (e) => {
     })
 })
 })
+
+function enableDarkMode() {
+    const element = document.body;
+    element.classList.toggle('dark-mode');
+}

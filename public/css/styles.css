@@ -10,6 +10,11 @@ body {
     min-height: 100vh;
 }
 
+.dark-mode {
+    background-color: #16161d;
+    color: white;
+}
+
 .main-content {
     flex-grow: 1;
 }
